@@ -18,6 +18,8 @@ Koder som benyttes:
 - ```{tlfSkole}``` Skolens telefonnummer
 - ```{dato}``` Dato for produksjon av varselet på formatet dd.mm.åååå
 - ```{Arsak}``` Årsak(er) til at varselet sendes. Kan inneholde flere linjer adskilt med ```\n```
+- ```{varselPeriode}``` Halvårsvurdering 1. termin, 2. termin eller standpunktkarakter
+- ```{skoleAar}``` Hvilket skoleår
 
 ## Fag
 Denne malen benyttes dersom det er fare for nedsatt karakter i ett eller flere fag.
@@ -31,6 +33,8 @@ Koder som benyttes:
 - ```{dato}``` Dato for produksjon av varselet på formatet dd.mm.åååå
 - ```{Arsak}``` Årsak(er) til at varselet sendes. Kan inneholde flere linjer adskilt med ```\n```
 - ```{fag}``` Fag varselet omfatter. Kan inneholde flere linjer adskilt med ```\n```
+- ```{varselPeriode}``` Halvårsvurdering 1. termin, 2. termin eller standpunktkarakter
+- ```{skoleAar}``` Hvilket skoleår
 
 ## Orden
 Denne malen benyttes dersom det er fare for nedsatt karakter i orden.
@@ -43,6 +47,8 @@ Koder som benyttes:
 - ```{tlfSkole}``` Skolens telefonnummer
 - ```{dato}``` Dato for produksjon av varselet på formatet dd.mm.åååå
 - ```{Arsak}``` Årsak(er) til at varselet sendes. Kan inneholde flere linjer adskilt med ```\n```
+- ```{varselPeriode}``` Halvårsvurdering 1. termin, 2. termin eller standpunktkarakter
+- ```{skoleAar}``` Hvilket skoleår
 
 ## Hemmelig adresse
 Denne malen benyttes dersom varselet skal distribueres til elever med hemmelig adresse.
