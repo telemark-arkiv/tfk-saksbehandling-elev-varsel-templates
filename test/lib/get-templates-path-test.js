@@ -1,7 +1,7 @@
 'use strict'
 
 var tap = require('tap')
-var getTemplatePath = require('../index')
+var getTemplatePath = require('../../index')
 
 tap.ok(getTemplatePath('orden'), 'It returns path if template exists')
 
