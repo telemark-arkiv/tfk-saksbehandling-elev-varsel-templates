@@ -3,6 +3,8 @@
 [![Code Climate](https://codeclimate.com/github/telemark/tfk-saksbehandling-elev-varsel-templates/badges/gpa.svg)](https://codeclimate.com/github/telemark/tfk-saksbehandling-elev-varsel-templates)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # tfk-saksbehandling-elev-varsel-templates
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-saksbehandling-elev-varsel-templates.svg)](https://greenkeeper.io/)
 Maler for tfk-saksbehandling-elev-varsel økosystemet.
 
 Oversikt over alle malene og koder for de ulike ligger [her](docs/templates.md)
