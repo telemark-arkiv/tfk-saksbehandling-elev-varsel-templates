@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-elev-varsel-templates",
-  "version": "5.0.15",
+  "version": "5.1.0",
   "description": "Templates for the tfk-saksbehandling-elev-varsel ecosystem",
   "license": "MIT",
   "author": {
@@ -10,13 +10,13 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=4.7.1"
+    "node": ">=4.8.1"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
     "coverage": "tap test/**/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
-    "setup": "npm install && node setup.js"
+    "setup": "npm install"
   },
   "keywords": [
     "Tfk",
@@ -27,11 +27,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/tfk-saksbehandling-elev-varsel-templates.git"
+    "url": "https://github.com/telemark/tfk-saksbehandling-elev-varsel-templates.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/tfk-saksbehandling-elev-varsel-templates/issues"
+    "url": "https://github.com/telemark/tfk-saksbehandling-elev-varsel-templates/issues"
   },
+  "homepage": "https://github.com/telemark/tfk-saksbehandling-elev-varsel-templates",
   "devDependencies": {
     "coveralls": "2.13.0",
     "nsp": "2.6.3",
